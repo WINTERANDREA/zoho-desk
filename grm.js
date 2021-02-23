@@ -1,13 +1,16 @@
 var popup = document.querySelector(".popup")
     function apriPopup() {
 
-      popup.classList.remove("hide")
+      popup.classList.toggle("hide")
     }
+
 
 // ZOHO WIDGET - APRI TICKET
   function fillWidgetValue(){
-    $('#feedbNameTxtField').val("Nome Dinamico (campo nascosto)").addClass("hide")
-    $('#feedbEmailTxtField').val("Email Dinamica (campo nascosto)").addClass("hide")
+    // $('#feedbNameTxtField').val("Nome Dinamico (campo nascosto)").addClass("hide")
+    // $('#feedbEmailTxtField').val("Email Dinamica (campo nascosto)").addClass("hide")
+    $('#feedbNameTxtField').val("Nome Dinamico (campo nascosto)")
+    $('#feedbEmailTxtField').val("Email Dinamica (campo nascosto)")
     popup.classList.add("hide")
   }
 
